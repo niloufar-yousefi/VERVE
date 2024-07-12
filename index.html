@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asses/css/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="overflow-x-hidden custom-scrollbar overflow-y-auto">
+   
+    <div id="_box">
+
+        <div id="_mouseMove" class="fixed w-[10px] h-[10px] rounded-full  opacity-0 z-50 bg-[#3EB5DE] duration-[0.5s]">
+
+        </div>
+
+            <!-- grayBox on mob start ******** -->
+     <section id="_grayBox" class="w-full h-full bg-[#131313b5] top-0 left-0 absolute z-50 hidden flex-wrap ">
+
+        <!-- part1 grayBox -->
+        <div onclick="_myMenuReset()" class="w-[70%] h-full cursor-pointer"></div>
+
+        <!-- part2 grayBox -->
+        <div class="w-[30%] flex flex-wrap justify-center  ">
+            <ul
+                class="w-[60%] h-[300px]  mt-[100px] text-slate-50 font-Roboto flex flex-wrap justify-center content-between *:w-full ">
+                <li class=""><a href=" "
+                        class="w-full h-full cursor-pointer duration-75 block hover:font-bold text-[1.8vw]">DEMOS</a>
+                </li>
+                <li class=""><a href=" "
+                        class="w-full h-full cursor-pointer duration-75 block hover:font-bold text-[1.8vw]">ELEMENTS</a>
+                </li>
+                <li class=""><a href=" "
+                        class="w-full h-full cursor-pointer duration-75 block hover:font-bold text-[1.8vw]">MAIN
+                        FEATURES</a></li>
+                <li class=""><a href=" "
+                        class="w-full h-full cursor-pointer duration-75 block hover:font-bold text-[1.8vw]">VIDEO
+                        TUTORIALS</a></li>
+                <li class=""><a href=" "
+                        class="w-full h-full cursor-pointer duration-75 block hover:font-bold text-[1.8vw]">THEMS
+                        TRYOUT</a></li>
+            </ul> class="w-full h-full cursor-pointer bg-green-300 "
+        </div>
+
+    </section>
+    <!-- grayBox on mob end ******** -->
+
+    <!-- menu bar on mob   start******** -->
+    <div id="_menuBar" class="fixed top-0 right-[100%] bg-[#111111] flex lg:hidden w-[30%] duration-75 z-30 ">
+    </div>
+    <!-- menu bar end******** -->
+
+    <main class="duration-75 relative w-full " id="_main">
+        <!-- menu start******** -->
+        <!-- menu desk start-->
+        <div id="_menu"
+            class="fixed hidden lg:flex flex-wrap items-center justify-between w-full h-[100px] *:h-full  duration-[1s] z-20 ">
+
+            <!-- part 1 desk -->
+            <div class="font-Kanit flex flex-wrap pl-10 items-center w-[20%]   text-slate-50 ">
+                <h1 class="text-[2vw]  ">VERVE</h1>
+            </div>
+
+            <!-- part 2desk -->
+            <div class="font-Roboto w-[80%] pr-10 text-slate-50 ">
+                <ul
+                    class="w-full h-full flex  flex-wrap justify-between  *:h-full   *:flex *:items-center *:text-[1.2vw]">
+                    <li class="_li">
+                        <a href="" class="w-full h-full flex flex-wrap   relative">
+                            <p class="w-full  h-[60%] flex items-end">DEMOS</p>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%] bg-[#3EB5DE]  opacity-0 h-[4%] duration-75 transition-transform"></span>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                        </a>
+                    </li>
+                    <li class="_li">
+                        <a href="" class="w-full h-full flex flex-wrap   relative">
+                            <p class="w-full h-[60%] flex items-end">ELEMENTS</p>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%] bg-[#3EB5DE]  opacity-0 h-[4%] duration-75 transition-transform"></span>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                        </a>
+                    </li>
+                    <li class="_li">
+                        <a href="" class="w-full h-full flex flex-wrap   relative">
+                            <p class="w-full  h-[60%] flex items-end">MAIN FEATURES</p>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                        </a></li>
+                    <li class="_li">
+                        <a href="" class="w-full h-full flex flex-wrap   relative">
+                            <p class="w-full h-[60%] flex items-end">VIDEO TUTORIALS</p>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                        </a>
+                    </li>
+                    <li class="_li">
+                        <a href="" class="w-full h-full flex flex-wrap  relative">
+                            <p class="w-full  h-[60%] flex items-end">THEMS TRYOUT</p>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                            <span
+                                class="w-[50%] absolute top-[96%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                        </a>
+                    </li>
+                    <li class="_li">
+                        <a href="" class="w-full h-full flex flex-wrap  relative">
+                            <p class="w-full  h-[60%] flex items-end">BUY VERVE THEMS</p>
+                            <span
+                                class="w-[50%] absolute top-[100%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                            <span
+                                class="w-[50%] absolute top-[100%] left-0 translate-x-[50%]  bg-[#3EB5DE] opacity-0  h-[4%]  duration-75 transition-transform"></span>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- menu desk end**********-->
+
+        <!-- menu mob *********-->
+        <div
+            class="fixed top-0 left-0 w-full h-[100px] flex flex-wrap lg:hidden text-slate-50 bg-[#111111] px-10 justify-between items-center *:h-full *:flex *:items-center *:text-[4vw] z-20">
+            <h1 class=" w-[20%]  ">VERVE</h1>
+            <div class="w-[80%]  justify-end  ">
+                <i onclick="_myMenu()"
+                    class="bi bi-list hover:scale-y-[0.7] hover:text-[#3EB5DE] cursor-pointer  duration-75"></i>
+            </div>
+        </div>
+        <!-- menu end******** -->
+
+        <!-- part1 start *****-->
+        <div class=" w-full h-[100vh] flex flex-wrap relative bg-cover bg-center bg-no-repeat *:w-full  *:text-slate-50 font-Roboto"
+            style="background-image: url('./asses/img/header-demos.jpg')">
+
+            <!-- part 1-1 -->
+            <div class="h-[60%] flex justify-center items-center ">
+                <img class=" h-[50%]" src="./asses/img/header-v.png" alt="">
+            </div>
+            <!-- part 2-1 -->
+            <div id="_txt1" class="h-[20%]  *:w-full *:text-center relative ">
+                <h2 class="text-[4vw] absolute top-0">
+                    CLEAN. BEAUTIFUL. STRONG.
+                </h2>
+                <p id="_txt2" class="absolute bottom-0">
+                    An engaging theme that will rock your content. Period.
+                </p>
+            </div>
+            <!-- part 3-1 -->
+            <div class="h-[20%] *:w-full *:h-[50%] font-Kanit ">
+                <!-- part 3-1-1 -->
+                <div class="flex flex-wrap items-end *:w-[50%] *:h-full  *:px-3 lg:*:text-[0.7vw] *:text-[1.8vw] ">
+                    <div class="flex justify-end items-end">
+                        <button
+                            class="h-[50px] w-[120px] border-2 border-salate-50 duration-75 text-slate-50 hover:bg-slate-50 hover:text-[#111111]">PAGE
+                            SAMPLE</button>
+                    </div>
+                    <div class="flex  items-end">
+                        <button
+                            class="h-[50px] w-[120px] border-2 border-salate-50 duration-75 text-slate-50 hover:bg-slate-50 hover:text-[#111111]">MAIN
+                            FEATURES</button>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <i onclick="_scrollBtn()"
+                        class="bi bi-chevron-compact-down text-[5vw] lg:text-[2.5vw] animate-bounce-slow cursor-pointer"></i>
+                    <div id="_scrollBtnBack" class=" duration-[1s] translate-y-[2000%] fixed top-[90vh] right-[20px] w-[30px] h-[30px] bg-[#3EB5DE] cursor-pointer z-30"></div>    
+                </div>
+            </div>
+        </div>
+        <!-- part1 end*****-->
+
+        <!-- part2 start *****-->
+        <div id="_part2" class="w-full h-[400vh] flex-wrap flex pt-32 bg-slate-50 relative cursor-pointer">
+             <h5 class="w-full fixed font-Roboto uppercase text-[4vw] lg:text-[2vw] top-[35%] lg:top-[25%]  text-[#111111] left-[40%] lg:left-[45%] hidden">page sample</h5> 
+            <section id="_sec" class="relative   h-[100vh]  flex  *:mx-12 *:w-[350px] *:h-[250px] duration-75">               
+                <div class=""><img src="./asses/img/3.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover "></div>
+                <div class=" "><img src="./asses/img/4.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/5.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/6.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/7.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/8.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/9.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/10.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/11.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/12.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/13.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                <div class=" "><img src="./asses/img/14.jpg" alt="" class="_img opacity-0 duration-75 w-full h-full object-cover"></div>
+                
+            </section>
+        </div>
+
+        <div id="_part3" class="*:duration-[0.9s] w-full h-[100vh] relative  flex flex-wrap *:w-full *:h-[50%] bg-cover bg-center bg-no-repeat" style="background-image: url('./asses/img/footerImg.jpg');">
+            <div class="translate-x-[-1000%]  font-Roboto flex flex-wrap *:w-[51%] *:h-[30%] content-end justify-center *:text-slate-50">
+                <h6 class=" text-[3.6vw]  flex items-center justify-center">START YOUR NEW WEBSITE</h6>
+                <p class=" flex  text-[2vw] lg:text-[1.5vw]  justify-center text-center">Explore new possibilities with Samba. Create engaging experiences that will make visitors come back to your new website.</p>
+               
+            </div>
+            <div  class=" flex flex-wrap justify-center pt-10 font-Kanit text-slate-50  translate-x-[1000%]">
+                <div class="w-[150px] h-[40px] text-[2vw] lg:text-[1vw] lg:w-[200px] lg:h-[60px] bg-[#3EB5DE] flex justify-center duration-75 hover:bg-slate-50 hover:text-[#3EB5DE] hover:*:translate-x-1 *:duration-75 ">
+                    <button class="">
+                        BUY VERVE THEM
+                        <i class="bi bi-arrow-right "></i>
+                    </button>                   
+                </div>
+                <p class="text-center w-[100%] text-[2vw] lg:text-[1.5vw] ">Developed By Niloofar Yoosefi</p>
+            </div>
+        </div>
+
+        
+    </main>
+
+    </div>
+
+     
+
+
+   
+</body>
+<script src="./asses/script/script.js"></script>
+
+</html>

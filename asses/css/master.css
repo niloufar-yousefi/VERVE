@@ -1,0 +1,49 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family:Kanit ;
+    src: url(../font/Kanit-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto- ;
+    src: url(../font/Roboto-Regular.ttf);
+    
+}
+
+:root {
+    --primary: rgb(199, 193, 203);
+    --secondary: rgb(69, 66, 71);
+  }
+  
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--primary);
+     border-radius: 5px; 
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 20px;
+    border: 2px solid var(--primary);  
+  }
+
+  @keyframes __scale {
+    0%{transform: scale(0.9)}
+    100%{transform: scale(1)}
+  }
+
+._scale{
+  animation: __scale  0.5s linear;
+}
