@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
     font-family:Kanit ;
     src: url(../font/Kanit-Regular.ttf);
